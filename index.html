@@ -1,14 +1,21 @@
 <html>
   <head>
     <title>Todo List Application</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" type="text/css"/>
   </head>
+  
   <body>
-    <h1>Workshop Todo List</h1>
+    <h1>
+      <img class="company-logo" 
+      src="http://ww1.prweb.com/prfiles/2015/08/24/13706165/gI_60914_codenow%20logo%20large.png">
+      </img> <br> </br>
+      Workshop Todo List
+    </h1>
+    
     <ul>
       <li>
         <input type="checkbox">
-        <a href="show.html"> Make the curriculum 
+        <a href="show.html">Make the curriculum</a>
         <span class="pomodoro-estimate">4 pomodoros</span>
       </li>
       <li>
@@ -42,9 +49,12 @@
         <span class="pomodoro-estimate">0 pomodoros</span>
       </li>
     </ul>
-    
-    <input type="text" placeholder="Add a new todo...">
-    <input type="number" placeholder="Pomodoro estimate...">
-    <input id="add-new-todo-button" type="submit" value="Add todo">
+  
+    <div>
+      <input type="text" placeholder="Add a new todo...">
+      <input type="number" placeholder="Pomodoro estimate...">
+      <input id="add-new-todo-button" type="submit" value="Add todo">
+    </div>
   </body>
+  
 </html>
