@@ -5,11 +5,9 @@ body{
 }
 
 .company-logo{
-    margin-top: -10px;
-    margin-right: -20px;
-    margin-bottom: -40px;
-    margin-left: -20px;
+    margin: -10px -20px -40px -20px;
 }
+
 
 h1{
   color: #03A9F4;
